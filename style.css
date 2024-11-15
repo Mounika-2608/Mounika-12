@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #d2691e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Carousel */
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  
+  /* Quiz */
+  .quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-container button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quiz-container button:hover {
+    background-color: #c65d13;
+  }
+  
+  /* Order */
+  .order-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .order-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 400px;
+  }
+  
+  .order-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Joke */
+  .joke-container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

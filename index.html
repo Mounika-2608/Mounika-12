@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Quiz & Order</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Bakery Quiz & Order</h1>
+  </header>
+
+  <div class="content">
+    <!-- Image Carousel -->
+    <div class="carousel">
+      <img id="carouselImage" src="https://img.pikbest.com/ai/illus_our/20230413/2c6e94ddf57c48f63b578b5fafa31e6e.jpg!w700wp" alt="Bakery Item">
+      <img id="carouselImage" src="https://onestophalal.com/cdn/shop/articles/frozen_spring_rolls-1699236796097_1200x.jpg?v=1699236891" alt="Bakery Item">
+      <img id="carouselImage" src="https://st2.depositphotos.com/1744806/5271/i/450/depositphotos_52713845-stock-photo-sandwich.jpg" alt="Bakery Item">
+    </div>
+
+    <!-- Order Multiple Bakery Items -->
+    <div class="order-container">
+      <h2>Order Your Favorite Bakery Items</h2>
+      <input type="text" id="bakeryOrder" placeholder="Enter bakery item">
+      <button id="addOrderButton">Add to Order</button>
+      <ul id="orderList"></ul>
+      <button id="submitOrderButton">Submit Order</button>
+      <p id="orderResponse"></p>
+    </div>
+
+    <!-- Bakery Quiz -->
+    <div class="quiz-container">
+      <h2>Test Your Bakery Knowledge</h2>
+      <div id="quiz">
+        <!-- Quiz content will be inserted here dynamically -->
+      </div>
+      <button id="nextButton">Next Question</button>
+    </div>
+
+    <!-- Bakery Joke Fetch -->
+    <div class="joke-container">
+      <h2>Bakery Joke of the Day</h2>
+      <p id="bakeryJoke">Loading joke...</p>
+    </div>
+  </div>
+
+</body>
+</html>
